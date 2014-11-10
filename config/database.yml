@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: pcic_production
-  username: pcic
+  username:
   password: <%= ENV['PCIC_DATABASE_PASSWORD'] %>
