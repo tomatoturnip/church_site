@@ -13,6 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
-//= navbar
+//= require grayscale
 //= require turbolinks
 

@@ -9,6 +9,7 @@ gem 'bootstrap-sass', '~> 3.3.0'
 gem 'sass-rails', '~> 4.0.3'
 gem 'autoprefixer-rails'
 gem 'quiet_assets', group: :development
+gem 'font-awesome-rails'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
