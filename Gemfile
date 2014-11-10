@@ -6,8 +6,9 @@ gem 'omniauth-facebook'
 gem 'omniauth-google'
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.0'
-gem 'sass-rails', '>= 3.2'
+gem 'sass-rails', '~> 4.0.3'
 gem 'autoprefixer-rails'
+gem 'quiet_assets', group: :development
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
