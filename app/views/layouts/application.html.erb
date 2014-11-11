@@ -8,60 +8,11 @@
 </head>
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-home"></i>  <span class="light">PCIC</span>
-            </a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#messages">Messages</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#children">Children</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#volunteer">Volunteer</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                <% if user_signed_in? %>
-                    <li>
-                      <%= link_to current_user.email, edit_user_registration_path %>
-                    </li>
-                    <li>
-                      <%= link_to "Log out", destroy_user_session_path, method: :delete %>
-                    </li>
-                <% else %>
-                    <li>
-                      <%= link_to "Login", "#loginmodal", "data-toggle" => "modal" %>
-                    </li>
-                <% end %>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
 <div>
+    <%= render "layouts/nav" %>
     <%= render "home/login_modal" %>
+    <%= render "home/sign_up_modal" %>
     <%= render "layouts/notice" %>
 </div>
   <%= yield %>
