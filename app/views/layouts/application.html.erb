@@ -44,11 +44,15 @@
                 </li>
                 <% if user_signed_in? %>
                     <li>
-                        <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+                      <%= link_to current_user.email, edit_user_registration_path %>
+                    </li>
+                    <li>
+                      <%= link_to "Log out", destroy_user_session_path, method: :delete %>
                     </li>
                 <% else %>
                     <li>
-                        <a class="page-scroll" href="#login">Login</a>
+                      <%= link_to "Login", new_user_session_path %>
+                        <!-- <a class="page-scroll" href="#login">Login</a> -->
                     </li>
                 <% end %>
             </ul>
