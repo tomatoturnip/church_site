@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
-gem 'omniauth-google'
+gem 'omniauth-google-oauth2'
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.0'
 gem 'sass-rails', '~> 4.0.3'
@@ -11,6 +11,7 @@ gem 'autoprefixer-rails'
 gem 'quiet_assets', group: :development
 gem 'font-awesome-rails'
 gem 'simple_form'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
