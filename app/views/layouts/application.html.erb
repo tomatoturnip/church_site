@@ -51,8 +51,7 @@
                     </li>
                 <% else %>
                     <li>
-                      <%= link_to "Login", new_user_session_path %>
-                        <!-- <a class="page-scroll" href="#login">Login</a> -->
+                      <%= link_to "Login", "#loginmodal", "data-toggle" => "modal" %>
                     </li>
                 <% end %>
             </ul>
@@ -62,7 +61,8 @@
     <!-- /.container -->
 </nav>
 <div>
-    <%= render partial: 'layouts/notice' %>
+    <%= render "home/login_modal" %>
+    <%= render "layouts/notice" %>
 </div>
   <%= yield %>
 
