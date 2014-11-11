@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require grayscale
+//= require login
 //= require turbolinks
 

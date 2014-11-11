@@ -10,6 +10,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'autoprefixer-rails'
 gem 'quiet_assets', group: :development
 gem 'font-awesome-rails'
+gem 'simple_form'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
