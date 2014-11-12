@@ -12,6 +12,7 @@ gem 'quiet_assets', group: :development
 gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'fullcalendar-rails'
+gem 'momentjs-rails'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

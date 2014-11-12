@@ -175,6 +175,7 @@ DEPENDENCIES
   fullcalendar-rails
   jbuilder (~> 2.0)
   jquery-rails
+  momentjs-rails
   omniauth
   omniauth-facebook
   omniauth-google-oauth2

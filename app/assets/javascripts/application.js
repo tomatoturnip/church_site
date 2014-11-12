@@ -15,6 +15,7 @@
 //= require bootstrap-sprockets
 //= require grayscale
 //= require login
+//= require moment
 //= require fullcalendar
 //= require calendar
 //= require turbolinks
