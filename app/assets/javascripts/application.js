@@ -16,5 +16,6 @@
 //= require grayscale
 //= require login
 //= require fullcalendar
+//= require calendar
 //= require turbolinks
 
