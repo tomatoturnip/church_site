@@ -1,9 +1,0 @@
-/* CSS used here will be applied after bootstrap.css */
-
-.login_image {
- background: url('/assets/intro-bg.jpg') no-repeat center center fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-}
