@@ -1,9 +1,9 @@
-$.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.min.js',function(){
+$(document).ready(function() {
 
-  var date = new Date();
-  var d = date.getDate();
-  var m = date.getMonth();
-  var y = date.getFullYear();
+  // var date = new Date();
+  // var d = date.getDate();
+  // var m = date.getMonth();
+  // var y = date.getFullYear();
 
   $('#calendar').fullCalendar({
     header: {
@@ -15,4 +15,4 @@ $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.m
       events: '/events.json'
 
   });
-})
+});
